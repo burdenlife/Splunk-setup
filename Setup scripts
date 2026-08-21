@@ -1,0 +1,105 @@
+****Set Up Ubuntu****
+
+sudo apt update
+
+sudo apt upgrade -y
+
+sudo apt install -y \
+    curl \
+    wget \
+    git \
+    unzip \
+    ca-certificates \
+    gnupg \
+    lsb-release \
+    net-tools
+
+
+
+
+**** Install Docker ****
+
+sudo apt install -y \
+    ca-certificates \
+    curl
+
+sudo install -m 0755 -d /etc/apt/keyrings
+
+
+sudo curl -fsSL \
+https://download.docker.com/linux/ubuntu/gpg \
+-o /etc/apt/keyrings/docker.asc
+
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" \
+  | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+
+sudo apt install -y \
+    docker-ce \
+    docker-ce-cli \
+    containerd.io \
+    docker-buildx-plugin \
+    docker-compose-plugin
+
+sudo docker run hello-world   
+
+
+sudo usermod -aG docker $USER
+
+
+
+**** Set-up SSH (if necessary)****
+
+
+
+
+**** Install Splunk ****
+
+wget -O splunk-10.4.1-5a009d941268-linux-amd64.deb "https://download.splunk.com/products/splunk/releases/10.4.1/linux/splunk-10.4.1-5a009d941268-linux-amd64.deb"
+
+
+sudo dpkg -i splunk-10.4.1-5a009d941268-linux-amd64.deb
+
+
+sudo /opt/splunk/bin/splunk start --accept-license --run-as-root
+
+
+sudo /opt/splunk/bin/splunk enable boot-start
+
+
+sudo /opt/splunk/bin/splunk status
+
+sudo usermod -aG docker splunk
+
+sudo /opt/splunk/bin/splunk restart --run-as-root
+
+
+**** Install Python ****
+
+Go to https://splunkbase.splunk.com/app/2882 and download the tar.gz file
+
+Go to https://splunkbase.splunk.com/app/2890 and download the tar.gz file
+
+Go to https://splunkbase.splunk.com/app/4607 and download the tar.gz file
+
+
+navigate to http://<splunk ip>:8000 and login
+
+Click Manage on the left dashboard (under Apps)
+
+Select Install App From File (on the top right) and select the tar.gz files
+
+
+
+
+
+
+
+
+
+
