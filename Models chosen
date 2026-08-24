@@ -1,0 +1,36 @@
+Isolation Forest
+ - Essentially creates a classsification tree and identify datapoints which are very easily filtered out of the main cluster
+
+
+Local Outlier Factor
+
+ - Looks at density of datapoints
+ - If a datapoint is very isolated, it is flagged as an anomaly
+
+
+One-Class SVM
+
+ - Draws a box around the main cluster
+ - Points outside the main cluster are flagged as anomalies
+
+
+PCA reconstruction error
+ - Learns inter-variate patterns to detect discrepencies
+
+Histogram-Based Outlier Score
+ - Trivial solution
+
+
+Autoencoder
+ - This is essentially a neural network
+
+
+Complex Models:
+
+Sequence Models
+ - Accounts for order of events on top of just couunt of events
+ - Allows us to track and identify attacker patterns
+
+
+Graph Model
+ - Fucking kms
