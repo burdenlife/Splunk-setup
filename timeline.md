@@ -28,7 +28,12 @@
 - [ ] Assign models to teams
 
 #### Phase 1.2 Model Development and Testing 
+- [ ] Histogram-Based Outlier Score
 - [ ] Isolation Forest
+- [ ] Local Outlier Factor
+- [ ] One-Class SVM
+- [ ] PCA Reconstruction
+- [ ] Autoencoder
 - [ ] Sequence Model
 - [ ] Graph Model
 
@@ -42,7 +47,12 @@
 
 ### Phase 2: Onboarding models into SOC 
 
-#### Phase 2.1 
+#### Phase 2.1 Retrain with organic data
+- [ ] Select model for deployment
+- [ ] Extract data from live environment
+- [ ] Retrain selected models
+
+
 
 
 
