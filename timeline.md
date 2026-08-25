@@ -3,22 +3,20 @@
 ### Phase 0: Set Up + Scoping Project (By 28 August)
 
 #### 0.1 Setting Up Splunk DSDL infra
-- [] Set up splunk servers on 2 open net laptops
-- [] Set up splunk dsdl and jupyter lab
-
+- [X] Set up splunk servers on 2 open net laptops
+- [X] Set up splunk dsdl and jupyter lab
 - [] Replicate environment in home laptop
 
 #### 0.2 Select and ingest datasets
-- [] Select dataset (current - DARPA theia dataset)
-
+- [] Select dataset (current - DARPA cadets dataset)
 - [] Download and ingest data in all environements
-
 - [] Split up the Train and Test Data sets
 
 
 #### 0.3 Scope project and select use cases
-- [] Identify use case of DSDL (current - Threat Hunting sophisticated attacks)
+- [X] Identify use case of DSDL (current - Threat Hunting sophisticated attacks)
 - [] Identify the models to be used
+    -
     - Isolation Forest
     - Sequence Model
     - Graph Model
