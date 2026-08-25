@@ -16,9 +16,6 @@
 #### 0.3 Scope project and select use cases
 - [X] Identify use case of DSDL (current - Threat Hunting sophisticated attacks)
 - [ ] Identify the models to be used (see [here](https://github.com/burdenlife/Splunk-setup/blob/main/models_chosen))
-    - Isolation Forest
-    - Sequence Model
-    - Graph Model
 - [ ] Define evaluation rubrics
 
 
