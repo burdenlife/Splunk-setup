@@ -15,32 +15,32 @@
 
 #### 0.3 Scope project and select use cases
 - [X] Identify use case of DSDL (current - Threat Hunting sophisticated attacks)
-- [] Identify the models to be used
+- [ ] Identify the models to be used
     -
     - Isolation Forest
     - Sequence Model
     - Graph Model
-- [] Define evaluation rubrics
+- [ ] Define evaluation rubrics
 
 
 ### Phase 1: Developing PoC (By end September)
 
 #### Phase 1.1 Setting up the Team (by 28 August)
-- [] Identify team leads
-- [] Interview team leads and brief
-- [] Split team members
-- [] Assign models to teams
+- [ ] Identify team leads
+- [ ] Interview team leads and brief
+- [ ] Split team members
+- [ ] Assign models to teams
 
 #### Phase 1.2 Model Development and Testing 
-- [] Isolation Forest
-- [] Sequence Model
-- [] Graph Model
+- [ ] Isolation Forest
+- [ ] Sequence Model
+- [ ] Graph Model
 
 #### Phase 1.3 Reporting and Presentation
-- [] Creation of Dashboard
-- [] Presentation Slides
-- [] Demo of Dashboard
-- [] Presentation 
+- [ ] Creation of Dashboard
+- [ ] Presentation Slides
+- [ ] Demo of Dashboard
+- [ ] Presentation 
 
 
 
