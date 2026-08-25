@@ -5,12 +5,12 @@
 #### 0.1 Setting Up Splunk DSDL infra
 - [X] Set up splunk servers on 2 open net laptops
 - [X] Set up splunk dsdl and jupyter lab
-- [] Replicate environment in home laptop
+- [ ] Replicate environment in home laptop
 
 #### 0.2 Select and ingest datasets
-- [] Select dataset (current - DARPA cadets dataset)
-- [] Download and ingest data in all environements
-- [] Split up the Train and Test Data sets
+- [ ] Select dataset (current - DARPA cadets dataset)
+- [ ] Download and ingest data in all environements
+- [ ] Split up the Train and Test Data sets
 
 
 #### 0.3 Scope project and select use cases
