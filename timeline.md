@@ -53,9 +53,26 @@
 - [ ] Retrain selected models
 
 
+#### Phase 2.2 Integrating Model into SOC
+- [ ] Place models into SOC environment
+- [ ] Update Splunk dashboard to include model query output 
+- [ ] Redesign SOPs with respect to new dashboard (retrain cycle, response playbook)
+- [ ] Apprise SOC personnel of new SOP
 
 
 
+
+### Phase 3: Evaluation, Assessment and ORD
+
+#### Phase 3.1 Feedback Collection and Dynamic Adjustments
+- [ ] Creation of a routine and short-cycle feedback channel
+- [ ] Allocation of resources to retrain model according to feedback and latest findings
+
+#### Phase 3.2 ORD
+- [ ] Collation of Pilot test data + feedback + lessons learnt
+- [ ] Presentation Slides
+- [ ] Presentation
+- [ ] Potential HOTO or SOP update to maintain stable-state
 
 
 
