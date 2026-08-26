@@ -95,6 +95,14 @@ Click Manage on the left dashboard (under Apps)
 Select Install App From File (on the top right) and select the tar.gz files
 
 
+**** Install python on linux + create venv ****
+
+sudo apt install python3.14-venv
+python3 -m venv ./cadets-venv
+source cadets-venv/bin/activate
+pip install pyarrow
+
+
 
 **** Import Cadets data ****
 cd ~
@@ -111,7 +119,7 @@ nano convert_cadets_full.py
 #### Create cadets index
 
 
-sudo python convert_cadets_full.py
+sudo python3 convert_cadets_full.py
 
 
 
