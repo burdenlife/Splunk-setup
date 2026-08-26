@@ -122,6 +122,23 @@ nano convert_cadets_full.py
 sudo python3 convert_cadets_full.py
 
 
+## Edit props.conf
+
+mkdir /opt/splunk/etc/apps/cadets_ingest
+
+nano /opt/splunk/etc/apps/cadets_ingest/props.conf
+
+
+
+## create cadets index manually through browser
+
+for f in /home/splunk/cadets/splunk/cadets_*.ndjson; do
+    echo "Ingesting $f"
+
+    sudo -u splunk /opt/splunk/bin/splunk add oneshot "$f" \
+        -index cadets \
+        -sourcetype cadets:cdm
+done
 
 
 
