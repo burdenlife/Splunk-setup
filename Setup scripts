@@ -96,8 +96,22 @@ Select Install App From File (on the top right) and select the tar.gz files
 
 
 
+**** Import Cadets data ****
+cd ~
+mkdir cadets
+cd cadets
+hf download Abhishek044545/darpa-tc-cadets-e3 --repo-type=dataset
+mkdir parquet
+mkdir parquet/splunk
+mv home/splunk_user/cache/huggingface/hub/datasets--Abhishek044545--darpa-tc-cadets-e3/blobs/* ./parquet
+
+nano convert_cadets_full.py
+
+#### Copy py file over
+#### Create cadets index
 
 
+sudo python convert_cadets_full.py
 
 
 
