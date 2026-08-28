@@ -22,7 +22,7 @@
 ### Phase 1: Developing PoC (By End Sep 2026)
 
 #### Phase 1.1 Setting up the Team
-- [ ] Identify team leads
+- [X] Identify team leads
 - [ ] Interview team leads and brief
 - [ ] Split team members
 - [ ] Assign models to teams
