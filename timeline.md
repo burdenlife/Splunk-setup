@@ -18,6 +18,7 @@
 - [ ] Define evaluation rubrics
 
 
+
 ### Phase 1: Developing PoC 
 
 #### Phase 1.1 Setting up the Team
@@ -25,6 +26,13 @@
 - [ ] Interview team leads and brief
 - [ ] Split team members
 - [ ] Assign models to teams
+
+#### Phase 1.2 Lesson conduct for Team
+- [ ] Lesson plan
+- [ ] Lesson slides
+- [ ] Lesson environment
+- [ ] Lesson conduct #1 (likely 1st September)
+- [ ] Lesson conduct #2 (likely 9th September)
 
 #### Phase 1.2 Model Development and Testing (By end September)
 - [ ] Histogram-Based Outlier Score
@@ -59,8 +67,6 @@
 - [ ] Apprise SOC personnel of new SOP
 
 
-
-
 ### Phase 3: Evaluation, Assessment and ORD
 
 #### Phase 3.1 Feedback Collection and Dynamic Adjustments (1 month after integration)
@@ -72,10 +78,5 @@
 - [ ] Presentation Slides
 - [ ] Presentation
 - [ ] Potential HOTO or SOP update to maintain stable-state
-
-
-
-
-
 
 
