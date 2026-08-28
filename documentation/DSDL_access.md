@@ -33,6 +33,7 @@ Go to <ip address>:8000
 ### Step 2.2 Log into Splunk
 
 username: splunk_user
+<\br>
 password: Complex
 
 ![Splunk_Logon Screenshot](resource/Splunk_Logon.png)
