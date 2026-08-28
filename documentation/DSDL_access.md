@@ -4,7 +4,7 @@
 
 #### Step 1.1 Turn on Splunk VM
 
-![VMWare Screenshot]("documentation/resources/Screenshot 2026-08-28 103550.png")
+![VMWare Screenshot](resources/Screenshot 2026-08-28 103550.png)
 
 #### Step 1.2 ssh into VM 
 
