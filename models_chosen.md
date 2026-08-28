@@ -1,3 +1,13 @@
+
+### For lesson
+
+Histogram-Based Outlier Score
+ - Trivial solution
+
+
+
+### To be Assigned to teams
+
 Isolation Forest
  - Essentially creates a classsification tree and identify datapoints which are very easily filtered out of the main cluster
 
@@ -17,15 +27,15 @@ One-Class SVM
 PCA reconstruction error
  - Learns inter-variate patterns to detect discrepencies
 
-Histogram-Based Outlier Score
- - Trivial solution
+Kmeans Clustering
+ - Uses hyperparameter clusters to determine outliers
 
 
 Autoencoder
  - This is essentially a neural network
 
 
-Complex Models:
+### Complex Models to be revaluated
 
 Sequence Models
  - Accounts for order of events on top of just couunt of events
