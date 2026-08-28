@@ -11,7 +11,7 @@
 `ssh splunk_user@<ip address>`  
 Password: Complex
 
-![ssh Screenshot](documentation/resources/Screenshot 2026-08-28 105031.png)
+![ssh Screenshot](resource/ssh.png)
 
 
 
@@ -19,8 +19,7 @@ Password: Complex
 
 `sudo /opt/splunk/bin/splunk start --run-as-root`
 
-
-
+![Start Splunk Screenshot](resource/Start_Splunk.png)
 
 ### Step 2 Access Splunk
 
@@ -28,7 +27,7 @@ Password: Complex
 
 Go to <ip address>:8000
 
-![Splunk Screenshot](documentation/resources/Screenshot 2026-08-28 104950.png)
+![Splunk Screenshot](resource/Splunk.png)
 
 
 #### Step 2.2 Log into Splunk
@@ -36,22 +35,21 @@ Go to <ip address>:8000
 username: splunk_user
 password: Complex
 
-![Splunk Login Screenshot](documentation/resources/Screenshot 2026-08-28 110933.png)
-
+![Splunk_Logon Screenshot](resource/Splunk_Logon.png)
 
 
 ### Step 3 Access DSDL
 
 #### 3.1 Access DSDL
 
-![Splunk Home Page Screenshot](documentation/resources/Screenshot 2026-08-28 110912.png)
+![Splunk Home Page Screenshot](resource/Splunk_Homepage.png)
 
 
 #### 3.2 Navigate to container
 
 Click on "Configuration" -> "container" in the left panel
 
-![Navigation Container Screenshot](documentation/resources/Screenshot 2026-08-28 111213.png)
+![Navigation Container Screenshot](resource/DSDL_Navigation.png)
 
 
 
@@ -61,7 +59,7 @@ Select "Golden Image CPU" in Container Image dropdown
 
 Click "Start"
 
-![Configuration Container Screenshot](documentation/resources/Screenshot 2026-08-28 111513.png)
+![Configuration Container Screenshot](resource/DSDL_Config.png)
 
 #### 3.4 Access Jupyter Lab
 
@@ -71,7 +69,7 @@ Log in when prompted
 
 Password: Super_Complex123
 
-![Jupyter Lab Screenshot](documentation/resources/Screenshot 2026-08-28 112006.png)
+![Jupyter Lab Screenshot](resource/DSDL_login.png)
 
 
 ### Troubleshooting - Jupyterlab :8888 cannot be accessed
