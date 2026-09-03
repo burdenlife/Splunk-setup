@@ -23,12 +23,12 @@
 
 #### Phase 1.1 Setting up the Team
 - [X] Identify team leads
-- [ ] Interview team leads and brief
+- [X] Interview team leads and brief
 - [ ] Split team members
 - [ ] Assign models to teams
 
 #### Phase 1.2 Lesson conduct for Team
-- [ ] Lesson plan
+- [X] Lesson plan
 - [ ] Lesson slides
 - [ ] Lesson environment
 - [ ] Lesson conduct #1 (likely 1st September)
